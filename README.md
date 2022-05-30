@@ -75,10 +75,9 @@ This program was written and will run on Windows 10.
 
 In this section, you should include detailed installation notes containing code blocks and screenshots.
 
-From the Command Line in Git Bash, navigate your directory to the location of the file package.  Then, type "Jupyter Notebook" to launch the application used to write and run this program.  It's outside of the scope of this README.md file to explain the installation of Jupyter Notebook.  A screenshot of the Command Line in Git Bash is shown here:  ![Git Bash](./images/VSCode_Git_Bash.png)
+From the Command Line in Git Bash, navigate your directory to the location of the file package.  Then, type "Jupyter Notebook" to launch the application used to write and run this program.  It's outside of the scope of this README.md file to explain the installation of Jupyter Notebook.  
 
-From Jupyter Notebook, navigate to the directory where the program is found and click on the program: "crypto_arbitrage.ipynb" as shown here in Jupyter Notebook:  ![Jupyter Notebook](./images/Jupyter_Notebook.png)
-
+From Jupyter Notebook, navigate to the directory where the program is found and click on the program: "crypto_investments.ipynb".  
 ---
 
 ## Usage
@@ -88,7 +87,7 @@ From Jupyter Notebook, navigate to the directory where the program is found and 
 As it was explained in the preamble, the goal of this kind of analysis is to:
 1. Import the cryptocurrency dataset with periodic performance metrics.  *This was accomplished using the read_csv function and imported a CSV file from the Resources folder.  The index was set as the coin_id or the name or the symbol for each currency.*
 
-2. Identify which periodic performance metrics relate the most to clustering.  *A line plot was drawn using hvplot to show the raw data.  !![Plot](images%5CLine%20Plot%20-%20raw%20data.png)
+2. Identify which periodic performance metrics relate the most to clustering.  *A line plot was drawn using hvplot to show the raw data.  !![Plot](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Line%20Plot%20-%20raw%20data.png)
 Prepare the Data - This section prepares the data before running the K-Means algorithm. It follows these steps:
 
         a. Use the StandardScaler module from scikit-learn to normalize the CSV file data. This will require you to utilize the fit_transform function.
@@ -115,7 +114,8 @@ In this section, you will use the K-Means algorithm with the best value for k fo
 
         e. Create a scatter plot using hvPlot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". Color the graph points with the labels found using K-Means and add the crypto name in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
-![Scatter1](images%5Cscatter1.png)
+![Scatter1](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Scatter2.png
+)
 Optimize Clusters with Principal Component Analysis
 In this section, you will perform a principal component analysis (PCA) and reduce the features to three principal components.
 
@@ -132,7 +132,7 @@ In this section, you will perform a principal component analysis (PCA) and reduc
         f. Answer the following question: What is the best value for k?
             #The answer is 4. 
 
-![PCA1](images%5CPCA1.png)
+![PCA1](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/PCA1.png)
 Find the Best Value for k Using the PCA Data
 In this section, you will use the elbow method to find the best value for k using the PCA data.
 
@@ -143,7 +143,7 @@ In this section, you will use the elbow method to find the best value for k usin
         c. Answer the following questions: What is the best value for k when using the PCA data? Does it differ from the best k value found using the original data?
                 Answer: It does not differ
 
-![](images%5CK2.png)
+![K2](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/K2.png)
 ### Cluster Cryptocurrencies with K-means Using the PCA Data
 
 In this section, you will use the PCA data and the K-Means algorithm with the best value for `k` found in the previous section to cluster the cryptocurrencies according to the principal components.
@@ -158,7 +158,7 @@ In this section, you will use the PCA data and the K-Means algorithm with the be
 
         5. Create a scatter plot using hvPlot by setting `x="PC1"` and `y="PC2"`. Color the graph points with the labels found using K-Means and add the crypto name in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
 
-![Scatter2](images%5CScatter2.png)
+![Scatter2](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Scatter2.png)
 Visualize and Compare the Results
 In this section, you will visually analyze the cluster analysis results by contrasting the outcome with and without using the optimization techniques.
 
@@ -167,10 +167,10 @@ In this section, you will visually analyze the cluster analysis results by contr
         b. Create a composite plot using hvPlot and the plus (+) operator to contrast the cryptocurrencies clusters using the original and the PCA data.
 
         c. Answer the following question: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
-![Combined Scatter](images%5CFinal%20Combined%20Scatter%20with%20cluster%20for%20portfolio%20-%20w%20hover.png)
+![Combined Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Final%20Combined%20Scatter%20with%20cluster%20for%20portfolio.png)
 
 
-![Final Scatter](images%5CFinal%20Combined%20Scatter%20with%20cluster%20for%20portfolio.png)
+![Final Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Final%20Combined%20Scatter%20with%20cluster%20for%20portfolio%20-%20w%20hover.png)
                 Answer: Candidly, I don't know.  However, I did recognize some interesting data results from the analysis.  The graph below shows the two scatters combined.  The second scatter is zoomed in to the positive quandrants for PC1 and PC2.  These resulted in the following list of cryptocurrencies that should be recommended as the portfolio of choice to the board.  I say this because the results mirror actual results in real life.  The list is as follows:
 
                     1. Monero
