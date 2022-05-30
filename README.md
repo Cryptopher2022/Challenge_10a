@@ -36,7 +36,7 @@ In our model, we will employ Unsupervised Learning.
 
 The graphic below shows the elements of the different types of learning and some of the methods and applications of each:
 
-![Graphic - Learning methods](images%5CGraphic%20with%20Supervised,%20Unsupervised%20and%20Reinforcement%20Learning.png)
+![Graphic - Learning methods](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Graphic%20with%20Supervised%2C%20Unsupervised%20and%20Reinforcement%20Learning.png)
 
 ---
 
