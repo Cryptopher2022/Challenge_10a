@@ -114,7 +114,8 @@ In this section, you will use the K-Means algorithm with the best value for k fo
 
         e. Create a scatter plot using hvPlot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". Color the graph points with the labels found using K-Means and add the crypto name in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
-![Scatter1](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Scatter1.png)
+![Scatter1](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/scatter1.png)
+
 Optimize Clusters with Principal Component Analysis
 In this section, you will perform a principal component analysis (PCA) and reduce the features to three principal components.
 
