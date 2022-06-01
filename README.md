@@ -114,7 +114,7 @@ In this section, you will use the K-Means algorithm with the best value for k fo
 
         e. Create a scatter plot using hvPlot by setting x="price_change_percentage_24h" and y="price_change_percentage_7d". Color the graph points with the labels found using K-Means and add the crypto name in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
-![Scatter1](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Scatter2.png
+![Scatter1](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Scatter1.png
 )
 Optimize Clusters with Principal Component Analysis
 In this section, you will perform a principal component analysis (PCA) and reduce the features to three principal components.
@@ -132,7 +132,7 @@ In this section, you will perform a principal component analysis (PCA) and reduc
         f. Answer the following question: What is the best value for k?
             #The answer is 4. 
 
-![PCA1](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/PCA1.png)
+![PCA1]((https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/New%20PCA1.png))
 Find the Best Value for k Using the PCA Data
 In this section, you will use the elbow method to find the best value for k using the PCA data.
 
@@ -158,7 +158,7 @@ In this section, you will use the PCA data and the K-Means algorithm with the be
 
         5. Create a scatter plot using hvPlot by setting `x="PC1"` and `y="PC2"`. Color the graph points with the labels found using K-Means and add the crypto name in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
 
-![Scatter2](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Scatter2.png)
+![Scatter2](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/New%20Scatter%202.png)
 Visualize and Compare the Results
 In this section, you will visually analyze the cluster analysis results by contrasting the outcome with and without using the optimization techniques.
 
@@ -167,10 +167,10 @@ In this section, you will visually analyze the cluster analysis results by contr
         b. Create a composite plot using hvPlot and the plus (+) operator to contrast the cryptocurrencies clusters using the original and the PCA data.
 
         c. Answer the following question: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
-![Combined Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Final%20Combined%20Scatter%20with%20cluster%20for%20portfolio.png)
+![Combined Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/New%20Combined%20Scatter%20Final%20all.png)
 
 
-![Final Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Final%20Combined%20Scatter%20with%20cluster%20for%20portfolio%20-%20w%20hover.png)
+![Final Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/New%20Combined%20Scatter%20Final%20all.png)
                 Answer: When looking at the columns of data in the prior dataframe from which we started, there is no way to graph a dataframe with more than 3 columns. By reducing the number of columns but not the data contained within, we can use visualization tools to pick out these coins below from one of the quadrants in the scatter plot to make our selections for the crypto currencies to recommend to the board. I understand now how these methods can bring in visualization as a critical part of the overall analysis. Thank you again for giving me the opportunity to repair this work and to learn its value.  I did recognize some interesting data results from the analysis.  The graph below shows the two scatters combined.  The second scatter is zoomed in to the positive quandrants for PC1 and PC2.  These resulted in the following list of cryptocurrencies that should be recommended as the portfolio of choice to the board.  I say this because the results mirror actual results in real life.  The list is as follows:
 
                      1. Monero*
