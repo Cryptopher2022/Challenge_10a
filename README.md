@@ -166,12 +166,12 @@ In this section, you will visually analyze the cluster analysis results by contr
         b. Create a composite plot using hvPlot and the plus (+) operator to contrast the cryptocurrencies clusters using the original and the PCA data.
 
         c. Answer the following question: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
-![Combined Elbow]()
+![Combined Elbow](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/New%20combined%20elbow%208.png)
 
-![Combined Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/New%20Combined%20But%20separate%20scatters.png)
+![Combined Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/New%20Combined%20But%20separate%20scatters.png)
 
 
-![Final Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/New%20Combined%20Scatter%20Final%20all.png)
+![Final Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/New%20Final%20Combined%20both%20multiplied.png)
 
 ![Final Scatter scaled](https://github.com/Cryptopher2022/Challenge_10a/blob/main/New%20Combined%20Scatter%20Final%20scaled.png)
                 Answer: When looking at the columns of data in the prior dataframe from which we started, there is no way to graph a dataframe with more than 3 columns. By reducing the number of columns but not the data contained within, we can use visualization tools to pick out these coins below from one of the quadrants in the scatter plot to make our selections for the crypto currencies to recommend to the board. I understand now how these methods can bring in visualization as a critical part of the overall analysis. Thank you again for giving me the opportunity to repair this work and to learn its value.  I did recognize some interesting data results from the analysis.  The graph below shows the two scatters combined.  The second scatter is zoomed in to the positive quandrants for PC1 and PC2.  These resulted in the following list of cryptocurrencies that should be recommended as the portfolio of choice to the board.  I say this because the results mirror actual results in real life.  The list is as follows:
