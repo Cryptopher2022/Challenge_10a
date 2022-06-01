@@ -171,24 +171,20 @@ In this section, you will visually analyze the cluster analysis results by contr
 
 
 ![Final Scatter](https://github.com/Cryptopher2022/Challenge_10a/blob/main/images/Final%20Combined%20Scatter%20with%20cluster%20for%20portfolio%20-%20w%20hover.png)
-                Answer: Candidly, I don't know.  However, I did recognize some interesting data results from the analysis.  The graph below shows the two scatters combined.  The second scatter is zoomed in to the positive quandrants for PC1 and PC2.  These resulted in the following list of cryptocurrencies that should be recommended as the portfolio of choice to the board.  I say this because the results mirror actual results in real life.  The list is as follows:
+                Answer: When looking at the columns of data in the prior dataframe from which we started, there is no way to graph a dataframe with more than 3 columns. By reducing the number of columns but not the data contained within, we can use visualization tools to pick out these coins below from one of the quadrants in the scatter plot to make our selections for the crypto currencies to recommend to the board. I understand now how these methods can bring in visualization as a critical part of the overall analysis. Thank you again for giving me the opportunity to repair this work and to learn its value.  I did recognize some interesting data results from the analysis.  The graph below shows the two scatters combined.  The second scatter is zoomed in to the positive quandrants for PC1 and PC2.  These resulted in the following list of cryptocurrencies that should be recommended as the portfolio of choice to the board.  I say this because the results mirror actual results in real life.  The list is as follows:
 
-                    1. Monero
-                    2. bitcoin-cash
-                    3. binancecoin
-                    4. wrapped bitcoin
-                    5. cosmos
-                    6. cardano
-                    7. zcash
-                    8. ethereum
-                    9. litecoin
-                    10. chainlink
-                    11. omisego
-                    12. celsius-degree-token
-                    13. ftx-token
-                    14. maker
-                    15. USD coin
-                    16. ripple
+                     1. Monero*
+                     2. bitcoin-cash*
+                     3. binancecoin*
+                     4. wrapped bitcoin*
+                     5. cosmos*
+                     6. cardano*
+                     7. zcash*
+                     8. omisego*
+                     9. celsius-degree-token*
+                     10. theta-token*
+                     11. ethland*
+                     12. nem*
 
 
     
